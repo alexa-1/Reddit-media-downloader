@@ -10,7 +10,7 @@ def install_and_import(package):
     try:
         importlib.import_module(package)
     except ImportError:
-        print "Beautiful soup not found! Installing..."
+        print package, "not found! Installing..."
         import pip
         pip.main(['install', package])
         print "First-time setup done!"
