@@ -1,5 +1,5 @@
-# Reddit-image-downloader
-Downloads images from reddit links, including imgur, gfycat, direct links and reddit-hosted media.
+# Reddit-media-downloader
+Downloads media from reddit links, including imgur, gfycat, direct links and reddit-hosted pages.
 
 ## NSFW Warning
 This project was designed for NSFW/pornographic content. It contains the names of explicit subreddits.
@@ -7,12 +7,12 @@ This project was designed for NSFW/pornographic content. It contains the names o
 ## Screenshot
 Here is the project in action.
 
-![screenshot](https://raw.githubusercontent.com/alexa-1/Reddit-image-downloader/master/screenshot.png "Screenshot")
+![screenshot](https://raw.githubusercontent.com/alexa-1/Reddit-media-downloader/master/screenshot.png "Screenshot")
 
 ## Instructions
 **Note**: This project requires **Python 2.7** to be installed. [Download here](https://www.python.org/downloads/)
 
-1. Download [Reddit-image-downloader.py](https://raw.githubusercontent.com/alexa-1/Reddit-image-downloader/master/Reddit-image-downloader.py) - Right click > Save as...
+1. Download [Reddit-media-downloader.py](https://raw.githubusercontent.com/alexa-1/Reddit-media-downloader/master/Reddit-media-downloader.py) - Right click > Save as...
 2. Run the script by double-clicking it (Python 2.7 must be installed for this)
 3. Type in a list of subreddits into the large textbox, or press 'Top NSFW subreddits' to populate it automatically
 4. Enter your reddit username and password into the fields (this is required, otherwise Reddit blocks the requests)
