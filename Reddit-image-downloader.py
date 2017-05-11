@@ -3,8 +3,22 @@ import urllib
 import urllib2
 import re
 import webbrowser
-from bs4 import BeautifulSoup
 import Tkinter
+
+def install_and_import(package):
+    import importlib
+    try:
+        importlib.import_module(package)
+    except ImportError:
+        print "Beautiful soup not found! Installing..."
+        import pip
+        pip.main(['install', package])
+        print "First-time setup done!"
+    finally:
+        globals()[package] = importlib.import_module(package)
+
+install_and_import('bs4')
+from bs4 import BeautifulSoup
 
 username = ''
 password = ''
